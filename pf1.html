@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Animation</title>
+    <link rel="stylesheet" href="pf2.css">
+</head>
+
+<body>
+    <div id="main">
+        <h1>Shuntaro Tomita</h1>
+        <p>UI / UX Designer / Front end develorper</p>
+        <div id="header_nav">
+            <ul>
+                <li>
+                    <a href="file:///Users/tomitashuntarou/Desktop/pf2/pf1.html">Home</a>
+                </li>
+                <Li>
+                    <a href="https://dribbble.com/tomita55">Projects</a>
+                </Li>
+                <Li>
+                    <a href="file:///Users/tomitashuntarou/Desktop/pf2/pf1.html">Info</a>
+                </Li>
+                <Li>
+                    <a href="file:///Users/tomitashuntarou/Desktop/pf2/pf1.html">Contact</a>
+                </Li>
+            </ul>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.cells.min.js"></script>
+        <script>
+            VANTA.CELLS({
+                el: "#main",
+                mouseControls: true,
+                touchControls: true,
+                gyroControls: false,
+                scale: 1.10,
+                color1: 0x0,
+                color2: 0x3c94da,
+                size: 0.30,
+                speed: 1.25,
+            })
+        </script>
+    </div>
+</body>
+
+</html>
